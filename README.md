@@ -33,3 +33,8 @@ Implementation:
 The Hive script generates the four external tables based on the raw user log data. Additionally, it creates a partitioned table based on dates, with each partition corresponding to a day. This structure facilitates efficient querying and analysis of user interactions with news messages.
 
 Note: This project showcases the utilization of Hive for data processing, table creation, and partitioning to derive meaningful insights from user logs stored in HDFS. It encompasses the extraction of relevant information such as user queries, user details, and IP address locations for further analysis.
+
+
+
+Task 2
+Hive Project Description: This project involves a Hive script that executes a query to retrieve the count of visits for each day. The obtained results are then sorted in descending order.
