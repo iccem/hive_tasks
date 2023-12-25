@@ -98,3 +98,37 @@ Confirm the successful migration by reviewing the updated URLs in the user datab
 This project serves as a practical solution for ensuring the accuracy and relevance of user data following a domain migration, demonstrating effective use of Hive in database management.
 
 Note: This description outlines a Hive project specifically addressing Task 4, focusing on updating the user database after the migration of tracked websites to the .com domain. The script utilizes Hive's capabilities to streamline the process and maintain data integrity.
+
+
+Task 5 - Query Optimization with TABLESAMPLE
+
+Objective:
+The goal of this project is to optimize data processing for scenarios with vast datasets, leveraging TABLESAMPLE functionality. Specifically, we aim to enhance the efficiency of the query implemented in Task 3 by incorporating sampling techniques. Additionally, we explore various sampling percentages relative to the total dataset volume and assess the accuracy of resulting estimates. The project includes a comparative analysis of estimation precision based on different sampling percentages, visualized on a graph. Multiple metrics can be utilized for accuracy evaluation, either considering average values across regions or individual regions.
+
+Implementation:
+
+Original Query Optimization:
+
+Begin by refining the query from Task 3 to enhance processing speed.
+Identify key areas for optimization to streamline the overall data processing pipeline.
+Integrate TABLESAMPLE:
+
+Implement TABLESAMPLE functionality in the query to introduce sampling for faster data processing.
+Experiment with different sampling percentages to assess the impact on query performance and accuracy of estimates.
+Metrics for Accuracy:
+
+Define suitable metrics for accuracy assessment. This may involve considering variations in estimation precision across regions.
+Metrics could include mean absolute error, root mean square error, or other relevant measures.
+Graphical Representation:
+
+Utilize a graphical representation, such as a chart or graph, to illustrate the comparative results of different sampling percentages.
+Provide visual insights into the trade-off between processing speed and estimation accuracy.
+Usage:
+
+Clone the repository.
+Explore the SQL script containing the optimized query with TABLESAMPLE.
+Execute the query with varying sampling percentages to observe the impact on estimation accuracy.
+Visualize the results using the provided graphing tools.
+This project serves as an exploration of query optimization through TABLESAMPLE in scenarios with extensive datasets. The focus is on achieving a balance between processing speed and estimation accuracy.
+
+Note: This description outlines a GitHub project dedicated to optimizing data processing using TABLESAMPLE in SQL queries. The project emphasizes experimentation with different sampling percentages to assess the impact on accuracy and processing efficiency.
